@@ -1,0 +1,8 @@
+# package directories
+jspm_packages
+
+# Serverless directories
+.serverless
+.DS_Store
+.git
+tmp

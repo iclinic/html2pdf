@@ -1,0 +1,12 @@
+service: html-pdf
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: sa-east-1
+
+functions:
+  html-pdf:
+    handler: handler.handler
+    events:
+      - http: post /

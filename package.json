@@ -1,0 +1,22 @@
+{
+  "name": "html2pdf",
+  "version": "0.1.0",
+  "description": "A AWS Lambda function to render pdf from an HTML template",
+  "main": "handler.js",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iclinic/html2pdf.git"
+  },
+  "keywords": [
+    "pdf",
+    "restify",
+    "nodejs",
+    "es6"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.211.1",
+    "html-pdf": "^2.2.0"
+  }
+}
