@@ -1,4 +1,4 @@
-service: html-pdf
+service: service-pdf-name
 
 provider:
   name: aws
